@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+<style>
+body,h1 {font-family: "Montserrat", sans-serif}
+img {margin-bottom: -7px}
+.w3-row-padding img {margin-bottom: 12px}
+</style>
+</head>
+<body>
+  <style>
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+    </style>
+<!-- Sidebar -->
+<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+  <div class="container">
+        <div class="navbar-header">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">PSHT Ranting Besuki</a>
+  </div>
+  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav">
+      <li class="active"><a style="color:rgb(199, 9, 9)" href="index.html">Home</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Organisasi<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="structure.html">Struktur Organisasi</a></li>
+          <li><a href="jadwal.html">Jadwal Latihan</a></li>
+        </ul>
+      </li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Sejarah<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="sejarah_psht.html">Sejarah Singkat PSHT</a></li>
+            <!--<li><a href="jadwal.html">Jadwal Latihan</a></li> -->
+          </ul>
+        </li>
+        <li><a href="prestasi.html">Prestasi Organisasi</a></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Galeri Kegiatan<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="sosial.html">Kegiatan Sosial</a></li>
+            <li><a href="latihan.html">Kegiatan Latihan</a></li>
+          </ul>
+        </li> 
+    </ul>
+  </div>
+  </div>
+</nav>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px">
+
+<!-- Header -->
+<div class="w3-opacity">
+<span class="w3-button w3-xxlarge w3-white w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span> 
+<div class="w3-clear"></div>
+<header class="w3-center w3-margin-bottom">
+  <h1><b>GALERI KEGIATAN SOSIAL</b></h1>
+  <p><b>PSHT Ranting Besuki Situbondo</b></p>
+  <p class="w3-padding-16"><button class="w3-button w3-black" onclick="myFunction()">Toggle Grid Padding</button></p>
+</header>
+</div>
+
+<!-- Photo Grid -->
+<div class="w3-row" id="myGrid" style="margin-bottom:128px">
+  <div class="w3-third">
+    <img src="img\kegiatan\1.jpg" style="width:100%">
+    <img src="img\kegiatan\2.jpg" style="width:100%">
+    <img src="img\kegiatan\3.jpg" style="width:100%">
+    <img src="img\kegiatan\4.jpg" style="width:100%">
+    <img src="img\kegiatan\5.jpg" style="width:100%">
+    <img src="img\kegiatan\6.jpg" style="width:100%">
+  </div>
+
+  <div class="w3-third">
+    <img src="img\kegiatan\7.jpg" style="width:100%">
+    <img src="img\kegiatan\8.jpg" style="width:100%">
+    <img src="img\kegiatan\9.jpg" style="width:100%">
+    <img src="img\kegiatan\10.jpg" style="width:100%">
+    <img src="img\kegiatan\11.jpg" style="width:100%">
+    <img src="img\kegiatan\12.jpg" style="width:100%">
+  </div>
+
+  <div class="w3-third">
+    <img src="img\kegiatan\13.jpg" style="width:100%">
+    <img src="img\kegiatan\14.jpg" style="width:100%">
+    <img src="img\kegiatan\15.jpg" style="width:100%">
+    <img src="img\kegiatan\16.jpg" style="width:100%">
+    <img src="img\kegiatan\17.jpg" style="width:100%">
+    <img src="img\kegiatan\18.jpg" style="width:100%">
+  </div>
+</div>
+
+<!-- End Page Content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:128px"> 
+ <!-- <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>-->
+</footer>
+ 
+<script>
+// Toggle grid padding
+function myFunction() {
+  var x = document.getElementById("myGrid");
+  if (x.className === "w3-row") {
+    x.className = "w3-row-padding";
+  } else { 
+    x.className = x.className.replace("w3-row-padding", "w3-row");
+  }
+}
+
+// Open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.width = "100%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
